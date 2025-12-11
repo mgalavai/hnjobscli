@@ -1,6 +1,6 @@
 {
   "name": "hn-jobs-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Interactive CLI for browsing Hacker News 'Who is hiring' threads",
   "main": "dist/source/cli.js",
