@@ -29,13 +29,15 @@ export const JobDetailPane = ({ job, scrollOffset, isActive }: JobDetailPaneProp
             borderStyle={isActive ? 'double' : 'round'}
             height="100%"
         >
-            <Box marginBottom={1}>
+            <Box marginBottom={1} flexShrink={0}>
                 <Text bold color="cyan">{job.header}</Text>
             </Box>
+
             <Box flexGrow={1} overflow="hidden">
                 <Text>{visibleLines}</Text>
             </Box>
-            <Box marginTop={1} borderStyle="single" borderColor="gray">
+
+            <Box marginTop={1} borderStyle="single" borderColor="gray" flexShrink={0}>
                 <Text dimColor>
                     Posted by {job.user} • {job.age} • Line: {scrollOffset + 1}/{lines.length}
                 </Text>
