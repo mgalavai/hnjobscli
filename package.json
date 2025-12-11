@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "type": "module",
   "description": "Interactive CLI for browsing Hacker News 'Who is hiring' threads",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgalavai/hnjobscli.git"
+  },
   "main": "dist/source/cli.js",
   "bin": "dist/source/cli.js",
   "scripts": {
