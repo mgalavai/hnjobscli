@@ -2,7 +2,7 @@
 
 A modern, keyboard-centric terminal interface for browsing "Who is Hiring?" threads on Hacker News.
 
-![HN Jobs CLI Screenshot](https://user-images.githubusercontent.com/placeholder.png)
+![HN Jobs CLI Screenshot](screenshot.png)
 
 ## Features
 
